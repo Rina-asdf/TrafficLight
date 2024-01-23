@@ -1,4 +1,4 @@
-body{
+/* body{
     margin: 60px;
     font-family: serif;
     background: white;
@@ -18,7 +18,7 @@ h1{
 .left{
     color: RED;
     /*width: 50px;
-    height: 50px;*/
+    height: 50px;
 }
 
 #center{
@@ -33,7 +33,41 @@ h1{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: red;/*背景色*/
+    background: red;/*背景色
     margin: 10px auto;
   }
 
+ */
+
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.traffic-light {
+    display: flex;
+}
+
+.lamp {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#red {
+    background-color: gray;
+}
+
+#yellow {
+    background-color: gray;
+}
+
+#green {
+    background-color: blue;
+}
