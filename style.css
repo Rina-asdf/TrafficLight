@@ -1,0 +1,39 @@
+body{
+    margin: 60px;
+    font-family: serif;
+    background: white;
+}
+
+h1{
+    color: white;
+    font-size: 24px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.trafic_light{
+    color: black;
+    display: flex;
+}
+
+.left{
+    color: RED;
+    /*width: 50px;
+    height: 50px;*/
+}
+
+#center{
+    color: white;
+}
+
+#right{
+    color: white;
+}
+
+.circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: red;/*背景色*/
+    margin: 10px auto;
+  }
+
