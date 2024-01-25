@@ -8,10 +8,13 @@ function hello() {
 
 leftdiv.addEventListener('click' , hello) */
 
-/* document.addEventListener('DOMContentLoaded', function() {
-    const redLamp = document.getElementById('red');
-    const yellowLamp = document.getElementById('yellow');
-    const greenLamp = document.getElementById('green');
+const blue ="#26ffff";
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const redLamp = document.querySelector('.ellipse-red');
+    const yellowLamp = document.querySelector('.ellipse-yello');
+    const greenLamp = document.querySelector('.ellipse-blue');
 
     redLamp.addEventListener('click', function() {
         redLamp.style.backgroundColor = 'red';
@@ -28,6 +31,6 @@ leftdiv.addEventListener('click' , hello) */
     greenLamp.addEventListener('click', function() {
         redLamp.style.backgroundColor = 'gray';
         yellowLamp.style.backgroundColor = 'gray';
-        greenLamp.style.backgroundColor = 'green';
+        greenLamp.style.backgroundColor = blue ;
     });
-}); */
+}); 
